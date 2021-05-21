@@ -3,7 +3,7 @@
 This project builds a web-based calculator for a fictional company named Math-magicians. The business requirement is to build a simple product that would assist the company with their calculations.
 
 ## Live demo [Heroku]
-https://polar-eyrie-60544.herokuapp.com/ 
+https://calculator-hen.herokuapp.com/ 
 
 ## Built With
 
