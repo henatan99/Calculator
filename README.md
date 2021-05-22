@@ -2,6 +2,14 @@
 
 This project builds a web-based calculator for a fictional company named Math-magicians. The business requirement is to build a simple product that would assist the company with their calculations.
 
+### Components 
+The project applies React's best practices and puts use of functional and class components. 
+It has Button, ButtonPanel and Display components which renders UI elements. Finally the App component renders ButtonPanel and Display components. 
+The App has state attributes, 
+
+### Logic 
+The project has two logic function, calculate and operate. The calculate method mutates the data (total, next and operation attributes). The operate function returns the arithmetic operations based on the given arguments.  
+
 ## Live demo [Heroku]
 https://calculator-hen.herokuapp.com/ 
 
