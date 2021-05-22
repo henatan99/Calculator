@@ -1,5 +1,25 @@
-# Getting Started with Create React App
+# Calculator App 
 
+This project builds a web-based calculator for a fictional company named Math-magicians. The business requirement is to build a simple product that would assist the company with their calculations.
+
+### Components 
+The project applies React's best practices and puts use of functional and class components. 
+It has Button, ButtonPanel and Display components which renders UI elements. Finally the App component renders ButtonPanel and Display components. 
+The App has state attributes, 
+
+### Logic 
+The project has two logic function, calculate and operate. The calculate method mutates the data (total, next and operation attributes). The operate function returns the arithmetic operations based on the given arguments.  
+
+## Live demo [Heroku]
+https://calculator-hen.herokuapp.com/ 
+
+## Built With
+
+- JavaScript 
+- Node.JS
+- CSS
+
+# Getting Started
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +88,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Prerequisites
+
+- Node.JS
+
+## Authors
+
+👤 **Henok Mossissa**
+
+- GitHub: [@henatan99](https://github.com/henatan99)
+- Twitter: [@henatan99](https://twitter.com/henatan99)
+- LinkedIn: [Henok Mossissa](https://www.linkedin.com/in/henok-mekonnen-2a251613/)
+
+## :handshake: Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a :star:️ if you like this project!
+
+## Acknowledgment 
+
+- Facebook team who created creat-react-app API 
+
+## :memo: License
+
+This project is [MIT](./LICENSE) licensed.
