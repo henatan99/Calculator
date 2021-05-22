@@ -1,3 +1,3 @@
-const Button = (props) => <button className="button">{props.name}</button>
+const Button = (props) => <button className="button">{props.name}</button>;
 
-export default Button
+export default Button;

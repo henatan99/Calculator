@@ -5,10 +5,10 @@ import ButtonPanel from './ButtonPanel';
 
 function App() {
   return (
-    <React.Fragment>
-      <Display result="10"/>
-      <ButtonPanel />      
-    </React.Fragment>
+    <>
+      <Display result="10" />
+      <ButtonPanel />
+    </>
   );
 }
 
