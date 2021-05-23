@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */ // TODO: upgrade to latest eslint tooling
+/* eslint-disable react/destructuring-assignment */
 import PropTypes from 'prop-types';
 
 function Display(props) {
