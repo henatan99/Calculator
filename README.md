@@ -1,7 +1,6 @@
 # Calculator App 
 
 This project builds a web-based calculator for a fictional company named Math-magicians. The business requirement is to build a simple product that would assist the company with their calculations.
-The calculator app does arithmetic operations in its simplest feature. 
 
 ### Components 
 The project applies React's best practices and puts use of functional and class components. 
