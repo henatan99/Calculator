@@ -29,7 +29,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Display result="3" />
+        <Display result={this.state.total} />
         <ButtonPanel />
       </>
     );
