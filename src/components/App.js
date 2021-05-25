@@ -16,6 +16,16 @@ class App extends React.Component {
     }
   }
 
+  handleClick(name) {
+    const nums = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+    const data = [this.state.total, this.state.next, this.state.operation];
+    this.setState({
+      total: calculate(data, name),
+      next: nums.includes(name) ? name : null,
+      operation: nums.includes(name) ? null : operation,
+    });
+  }
+
   render() {
     return (
       <>
