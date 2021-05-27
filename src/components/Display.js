@@ -11,10 +11,12 @@ function Display({ result, process }) {
 
 Display.propTypes = {
   result: PropTypes.string,
+  process: PropTypes.string,
 };
 
 Display.defaultProps = {
   result: 0,
+  process: null,
 };
 
 export default Display;

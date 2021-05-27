@@ -32,11 +32,13 @@ code {
   padding: 1rem 0 0 0;
 }
 
-.result, .process {
+.result,
+.process {
   width: 100%;
   height: 30px;
   color: white;
   font-size: 20px;
+  font-weight: 700;
   padding: 0 0 0 1rem;
 }
 
@@ -44,7 +46,11 @@ code {
   width: 300px;
 }
 
-.group-1, .group-2, .group-3, .group-4, .group-5 {
+.group-1,
+.group-2,
+.group-3,
+.group-4,
+.group-5 {
   width: 100%;
 }
 

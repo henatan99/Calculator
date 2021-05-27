@@ -14,7 +14,7 @@ class App extends React.Component {
       next: null,
       operation: null,
       history: '',
-    }
+    };
   }
 
   handleClick(name) {
@@ -23,14 +23,19 @@ class App extends React.Component {
   }
 
   render() {
+    const {
+      total, next, operation, history,
+    } = this.state;
     return (
       <>
-        <Display result={(this.state.next && this.state.next.toString()) ||(this.state.total && this.state.total.toString()) || '0'} 
-        process={this.state.history}/>
-        <ButtonPanel handleClick={this.handleClick}/>
+        <Display
+          result={(next && next.toString()) || (total && total.toString()) || '0'}
+          process={history}
+        />
+        <ButtonPanel handleClick={this.handleClick} />
       </>
     );
-  }  
+  }
 }
 
 export default App;
