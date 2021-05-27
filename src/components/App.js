@@ -16,7 +16,7 @@ class App extends React.Component {
     };
   }
 
-  handleClick(name) {
+  handleClick = (name) => {
     const newState = calculate(this.state, name);
     this.setState(() => ({ ...newState }));
   }
