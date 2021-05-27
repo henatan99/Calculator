@@ -4,6 +4,7 @@ function Display({ result, process }) {
   return (
     <div>
       <div className="result">{result}</div>
+      <div className="process">{process}</div>
     </div>
   );
 }

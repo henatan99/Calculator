@@ -25,7 +25,8 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Display result={3}/>
+        <Display result={(this.state.next && this.state.next.toString()) ||(this.state.total && this.state.total.toString()) || '0'} 
+        process={this.state.history}/>
         <ButtonPanel handleClick={this.handleClick}/>
       </>
     );
