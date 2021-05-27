@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
 import Button from './Button';
 
 function ButtonPanel(props) {
@@ -38,6 +38,10 @@ function ButtonPanel(props) {
     </div>
   );
 }
+
+ButtonPanel.propTypes = {
+  handleClick: PropTypes.func,
+};
 
 ButtonPanel.defaultProps = {
   handleClick: null,
