@@ -1,7 +1,11 @@
 import PropTypes from 'prop-types';
 
-function Display({ result }) {
-  return <div className="result">{result}</div>;
+function Display({ result, process }) {
+  return (
+    <div>
+      <div className="result">{result}</div>
+    </div>
+  );
 }
 
 Display.propTypes = {
