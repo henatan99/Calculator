@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import '../App.css';
 import Display from './Display';
@@ -24,7 +23,7 @@ class App extends React.Component {
 
   render() {
     const {
-      total, next, operation, history,
+      total, next, history,
     } = this.state;
     return (
       <>
