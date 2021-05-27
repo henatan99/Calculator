@@ -7,30 +7,34 @@ function calculate(data, name) {
   const nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.'];
   
   if (nums.includes(name)) {
-    next = (next && next != history) ? next += name : name;
-    history = (history == null) ? name : history + name;
+    next = (next && (history != '' && operation != '=')) ? next += name : name;
+    history = (history == null || history == next) || operation == '=' ? name : history + name;
+    operation = operation == '=' ? null : operation;
   }
   else if(ops.includes(name)) {
-    total = (total && operation && next) ? operate(total, next, operation) : next;
+    total = (total && operation && next && operation != '=') ? operate(total, next, operation) : next;
     next = null;
     operation = name;
     history += operation;
   }
+  
   else if(name === '+/-') {
-    total = total ? -1 * total : -1 * next;
-    next = total; 
-    history = total;
+    next = total ? -1 * total : -1 * next;
+    total = null; 
+    history = next;
+    operation = '=';
   }
   else if(name === '%') {
-    total = total ? total * 100 : next * 100;
-    next = null;
-    history = total;
+    next = total ? total * 100 : next * 100;
+    total = null;
+    history = next;
+    operation ='=';
   }
   else if(name === '=') {
-    total = (total && operation && next) ? operate(total, next, operation) : next;
+    total = (total && operation && next && operation != '=') ? operate(total, next, operation) : next;
     next = total;
     history = total;
-    operation = null;
+    operation = '=';
   }
   else if(name === 'AC') {
     total = null;

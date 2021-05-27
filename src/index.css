@@ -29,12 +29,15 @@ code {
 .display {
   width: 300px;
   background-color: black;
+  padding: 1rem 0 0 0;
 }
 
 .result, .process {
   width: 100%;
   height: 30px;
   color: white;
+  font-size: 20px;
+  padding: 0 0 0 1rem;
 }
 
 .button-panel {
@@ -47,5 +50,6 @@ code {
 
 .button {
   width: 25%;
-  height: 2rem;
+  height: 3rem;
+  font-size: 18px;
 }
