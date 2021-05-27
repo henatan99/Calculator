@@ -3,7 +3,7 @@ import operate from './operate';
 function calculate(data, name) {
   const newData = { ...data };
   let { total, next, operation, history } = newData;
-  const ops = ['+', '-', 'X', '÷'];
+  const ops = ['+', '-', 'X', '÷', '^'];
   const nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.'];
   
   if (nums.includes(name)) {

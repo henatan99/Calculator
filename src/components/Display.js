@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function Display({ result, process }) {
   return (
-    <div class="display">
+    <div className="display">
       <div className="result">{result}</div>
       <div className="process">{process}</div>
     </div>

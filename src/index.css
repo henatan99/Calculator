@@ -36,3 +36,16 @@ code {
   height: 30px;
   color: white;
 }
+
+.button-panel {
+  width: 300px;
+}
+
+.group-1, .group-2, .group-3, .group-4, .group-5 {
+  width: 100%;
+}
+
+.button {
+  width: 25%;
+  height: 2rem;
+}
