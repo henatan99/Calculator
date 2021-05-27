@@ -8,7 +8,7 @@ function calculate(data, name) {
   
   if (nums.includes(name)) {
     next = (next && next != history) ? next += name : name;
-    history = (history == null) ? name : history + name; 
+    history = (history == null) ? name : history + name;
   }
   else if(ops.includes(name)) {
     total = (total && operation && next) ? operate(total, next, operation) : next;
