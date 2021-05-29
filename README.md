@@ -2,6 +2,8 @@
 
 This project builds a web-based calculator for a fictional company named Math-magicians. The business requirement is to build a simple product that would assist the company with their calculations.
 
+![Screenshot](src/App_screenshot.png)
+
 ### Components 
 The project applies React's best practices and puts use of functional and class components. 
 It has Button, ButtonPanel and Display components which renders UI elements. Finally the App component renders ButtonPanel and Display components. 

@@ -1,8 +1,8 @@
 import Big from 'big.js';
 
 function operate(numberOne, numberTwo, operation) {
-  const num1 = Big(numberOne);
-  const num2 = Big(numberTwo);
+  const num1 = parseFloat(Big(numberOne), 10);
+  const num2 = parseFloat(Big(numberTwo), 10);
   switch (operation) {
     case '+':
       return num1 + num2;
@@ -12,8 +12,8 @@ function operate(numberOne, numberTwo, operation) {
       return num1 * num2;
     case '÷':
       return num1 / num2;
-    case '%':
-      return num1 % num2;
+    case '^':
+      return num1 ** num2;
     default:
       return 'Invalid operator';
   }
