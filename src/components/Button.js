@@ -1,6 +1,18 @@
 import PropTypes from 'prop-types';
 
-const Button = ({ name, handleClick }) => <button className="button" type="submit" onClick={() => handleClick(name)}>{name}</button>;
+const btnClass = (btnName) => {  
+  if (['+', '-', 'X', '÷', '='].includes(btnName)) {
+    return "yellow-button";
+  }
+  else if (btnName === '0') {
+    return "btn-0";
+  }
+  else {
+    return "button";
+  }
+}
+
+const Button = ({ name, handleClick }) => <button className={btnClass(name)} type="submit" onClick={() => handleClick(name)}>{name}</button>;
 Button.propTypes = {
   name: PropTypes.string,
   handleClick: PropTypes.func,

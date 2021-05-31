@@ -32,8 +32,8 @@ code {
 }
 
 .display {
-  width: 300px;
-  background-color: black;
+  width: 700px;
+  background-color: #858693;
   padding: 1rem 0 0 0;
 }
 
@@ -48,19 +48,29 @@ code {
 }
 
 .button-panel {
-  width: 300px;
-}
-
-.group-1,
-.group-2,
-.group-3,
-.group-4,
-.group-5 {
-  width: 100%;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e0e0e0;
 }
 
 .button {
   width: 25%;
   height: 3rem;
   font-size: 18px;
+  color: #000;
+}
+
+.yellow-button {
+  width: 25%;
+  height: 3rem;
+  background-color: #f5913e;
+}
+
+.btn-0 {
+  width: 50%;
+  height: 3rem;
+  font-size: 18px;
+  color: #000;
 }

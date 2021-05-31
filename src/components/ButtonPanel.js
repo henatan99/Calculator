@@ -33,7 +33,6 @@ function ButtonPanel(props) {
         <Button name="0" handleClick={handleClick} />
         <Button name="." handleClick={handleClick} />
         <Button name="=" handleClick={handleClick} />
-        <Button name="^" handleClick={handleClick} />
       </div>
     </div>
   );
