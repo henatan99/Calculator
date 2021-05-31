@@ -15,7 +15,7 @@ const App = () => {
   const handleClick = (name) => {
     const newData = calculate(data, name);
     setData(() => ({ ...newData }));
-  }
+  };
 
   return (
     <>
@@ -26,6 +26,6 @@ const App = () => {
       <ButtonPanel handleClick={handleClick} />
     </>
   );
-}
+};
 
 export default App;
