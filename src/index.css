@@ -26,6 +26,11 @@ code {
     monospace;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .display {
   width: 300px;
   background-color: black;

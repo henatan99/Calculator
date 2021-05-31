@@ -7,7 +7,7 @@ import calculate from '../logic/calculate';
 const App = () => {
   const [data, setData] = useState({
     total: null,
-    next: null,
+    next: nnull,
     operation: null,
     history: '',
   });
@@ -19,11 +19,13 @@ const App = () => {
 
   return (
     <>
-      <Display
-        result={(data.next && data.next.toString()) || (data.total && data.total.toString()) || '0'}
-        process={data.history}
-      />
-      <ButtonPanel handleClick={handleClick} />
+      <div className="container">
+        <Display
+          result={(data.next && data.next.toString()) || (data.total && data.total.toString()) || '0'}
+          process={data.history}
+        />
+        <ButtonPanel handleClick={handleClick} />
+      </div>
     </>
   );
 };
