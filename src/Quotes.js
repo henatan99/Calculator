@@ -1,8 +1,8 @@
-import React from'react';
+import React from'react'
 
 function Quotes() {
     return (
-        <h3></h3>
+        <h3>Qoutes Page</h3>
     )
 }
 
