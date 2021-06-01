@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 import Nav from './Nav';
 import Calculator from './components/Calculator';
 import Quotes from './Quotes';
