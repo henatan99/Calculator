@@ -38,3 +38,10 @@ nav {
   flex-direction: row;
   justify-content: space-around;
 }
+
+.quote {
+  margin: 10%;
+  padding: 3rem;
+  line-height: 3rem;
+  background-color: lightblue;
+}
