@@ -4,7 +4,7 @@ import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
 
-const App = () => {
+const Calculator = () => {
   const [data, setData] = useState({
     total: null,
     next: null,
@@ -30,4 +30,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Calculator;
