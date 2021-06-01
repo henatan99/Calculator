@@ -19,3 +19,15 @@ nav {
   align-items: center;
   list-style: none;
 }
+
+.home {
+  padding: 10%;
+}
+
+.home-title {
+  padding: 20px;
+}
+
+.par {
+  padding: 20px;
+}
