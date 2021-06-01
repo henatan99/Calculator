@@ -6,33 +6,33 @@ function ButtonPanel(props) {
   return (
     <div className="button-panel">
       <div className="group-1">
-        <Button name="AC" handleClick={handleClick} />
-        <Button name="+/-" handleClick={handleClick} />
-        <Button name="%" handleClick={handleClick} />
-        <Button name="÷" handleClick={handleClick} />
+        <Button name="AC" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="+/-" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="%" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="÷" handleClick={handleClick} color="#f5913e" wide="25%"/>
       </div>
       <div className="group-2">
-        <Button name="7" handleClick={handleClick} />
-        <Button name="8" handleClick={handleClick} />
-        <Button name="9" handleClick={handleClick} />
-        <Button name="X" handleClick={handleClick} />
+        <Button name="7" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="8" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="9" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="X" handleClick={handleClick} color="#f5913e" wide="25%"/>
       </div>
       <div className="group-3">
-        <Button name="4" handleClick={handleClick} />
-        <Button name="5" handleClick={handleClick} />
-        <Button name="6" handleClick={handleClick} />
-        <Button name="-" handleClick={handleClick} />
+        <Button name="4" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="5" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="6" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="-" handleClick={handleClick} color="#f5913e" wide="25%"/>
       </div>
       <div className="group-4">
-        <Button name="1" handleClick={handleClick} />
-        <Button name="2" handleClick={handleClick} />
-        <Button name="3" handleClick={handleClick} />
-        <Button name="+" handleClick={handleClick} />
+        <Button name="1" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="2" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="3" handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="+" handleClick={handleClick} color="#f5913e" wide="25%"/>
       </div>
       <div className="group-5">
-        <Button name="0" handleClick={handleClick} />
-        <Button name="." handleClick={handleClick} />
-        <Button name="=" handleClick={handleClick} />
+        <Button name="0" handleClick={handleClick} color="#e0e0e0" wide="50%"/>
+        <Button name="." handleClick={handleClick} color="#e0e0e0" wide="25%"/>
+        <Button name="=" handleClick={handleClick} color="#f5913e" wide="25%"/>
       </div>
     </div>
   );
