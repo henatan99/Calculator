@@ -31,3 +31,10 @@ nav {
 .par {
   padding: 20px;
 }
+
+.calc {
+  padding: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
