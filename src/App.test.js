@@ -1,11 +1,28 @@
 import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
 import App from './App';
+import { Link } from 'react-router-dom';
 
 test('renders the correct content', () => {
   render(<App />)
   const navLogo = screen.getByText('Math Magicians');
+  const notNavLogo = screen.queryByText('Math Magician');
+  const homeLink = screen.getByText('Home');
+  const notHomeLink = screen.queryByText('My Home');
+  const calculatorLink = screen.getByText('Calculator');
+  const notCalculatorLink = screen.queryByText('Calc');
+  const quoteLink = screen.getByText('Quote');
+  const notQuoteLink = screen.queryByText('Quotation');
+  
   expect(navLogo).toBeInTheDocument();
+  expect(notNavLogo).not.toBeInTheDocument();
+  expect(homeLink).toBeInTheDocument();
+  expect(notHomeLink).not.toBeInTheDocument();
+  expect(calculatorLink).toBeInTheDocument();
+  expect(notCalculatorLink).not.toBeInTheDocument();
+  expect(quoteLink).toBeInTheDocument();
+  expect(notQuoteLink).not.toBeInTheDocument();
 })
 
 test('renders the Home page when Home link clicked', () => {
