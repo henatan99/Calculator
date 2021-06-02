@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `[Function]`;
+exports[`renders when color and wide props are passed  1`] = `[Function]`;
 
-exports[`renders correctly 2`] = `[Function]`;
+exports[`renders when handleClick function prop is passed  1`] = `[Function]`;
 
-exports[`renders correctly 3`] = `[Function]`;
+exports[`renders when name prop is passed 1`] = `[Function]`;
+
+exports[`renders when no props passed 1`] = `[Function]`;
