@@ -1,13 +1,15 @@
 # Calculator App 
 
-This project builds a web-based calculator for a fictional company named Math-magicians. The business requirement is to build a simple product that would assist the company with their calculations.
+This project builds a web-based calculator for a fictional company named Math-magicians. The business requirement is to build a simple product that would assist the company with their calculations. The Math Magicians website has three pages, the home page, the calculator page and the quote page. 
 
-![Screenshot](src/App_screenshot.png)
+![Screenshot](src/Home.png)
+![Screenshot](src/Calculator.png)
+![Screenshot](src/Quote.png)
 
 ### Components 
 The project applies React's best practices and puts use of functional and class components. 
-It has Button, ButtonPanel and Display components which renders UI elements. Finally the App component renders ButtonPanel and Display components. 
-The App has state attributes, 
+It has Button, ButtonPanel and Display components which renders UI elements. Finally the CalculatorPage component renders ButtonPanel and Display components. 
+The CalculatorPage component has hooks.
 
 ### Logic 
 The project has two logic function, calculate and operate. The calculate method mutates the data (total, next and operation attributes). The operate function returns the arithmetic operations based on the given arguments.  
