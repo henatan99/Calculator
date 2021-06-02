@@ -4,6 +4,4 @@ exports[`renders when no props passed 1`] = `[Function]`;
 
 exports[`renders when process prop of type string is passed 1`] = `[Function]`;
 
-exports[`renders when result prop of type number is passed 1`] = `[Function]`;
-
 exports[`renders when result prop of type string is passed 1`] = `[Function]`;
