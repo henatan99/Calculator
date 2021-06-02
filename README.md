@@ -2,8 +2,13 @@
 
 This project builds a web-based calculator for a fictional company named Math-magicians. The business requirement is to build a simple product that would assist the company with their calculations. The Math Magicians website has three pages, the home page, the calculator page and the quote page. 
 
+## Home Page
 ![Screenshot](src/Home.png)
+
+## Caclculator Page
 ![Screenshot](src/Calculator.png)
+
+## Quote Page 
 ![Screenshot](src/Quote.png)
 
 ### Components 
