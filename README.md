@@ -31,7 +31,19 @@ https://calculator-hen.herokuapp.com/
 # Getting Started
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## SetUp 
+- Clone the repository 
+`git clone git@github.com:henatan99/Calculator.git`
+
+- cd to the project directory 
+`cd Calculator`
+
+- Install dependancies 
+`npm install`
+
+- And follow the App Usage instructions in the next section
+
+## Available Scripts for App Usage
 
 In the project directory, you can run:
 
